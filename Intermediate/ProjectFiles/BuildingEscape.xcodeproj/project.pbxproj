@@ -18,6 +18,8 @@
 		41FD33C13F617E9EDE1DB41A /* BuildingEscape.h in Sources */ = {isa = PBXBuildFile; fileRef = 0E5631D94E6BF0852D4F2684 /* BuildingEscape.h */; };
 		1F5A10079392674F82AAB3F3 /* BuildingEscapeGameModeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF371B8EC7AA80860C4497E5 /* BuildingEscapeGameModeBase.cpp */; };
 		2D5A7FC2300503F2D6AFA1E5 /* BuildingEscapeGameModeBase.h in Sources */ = {isa = PBXBuildFile; fileRef = 51760B4CB6649764A23DF917 /* BuildingEscapeGameModeBase.h */; };
+		5061BD82CEA077DAC22AD939 /* PositionReport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12A41F7DA6C01C2F95353D50 /* PositionReport.cpp */; };
+		9F34D0A8AC3343EF606872CE /* PositionReport.h in Sources */ = {isa = PBXBuildFile; fileRef = 4880233638C722279DD13911 /* PositionReport.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,54 +34,57 @@
 		0E5631D94E6BF0852D4F2684 /* BuildingEscape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BuildingEscape.h"; path = "../../Source/BuildingEscape/BuildingEscape.h"; sourceTree = SOURCE_ROOT; };
 		DF371B8EC7AA80860C4497E5 /* BuildingEscapeGameModeBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BuildingEscapeGameModeBase.cpp"; path = "../../Source/BuildingEscape/BuildingEscapeGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
 		51760B4CB6649764A23DF917 /* BuildingEscapeGameModeBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BuildingEscapeGameModeBase.h"; path = "../../Source/BuildingEscape/BuildingEscapeGameModeBase.h"; sourceTree = SOURCE_ROOT; };
-		69DC045A189C1D2DCC2C6BAA /* BuildingEscape */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BuildingEscape; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A41F7DA6C01C2F95353D50 /* PositionReport.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PositionReport.cpp"; path = "../../Source/BuildingEscape/PositionReport.cpp"; sourceTree = SOURCE_ROOT; };
+		4880233638C722279DD13911 /* PositionReport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PositionReport.h"; path = "../../Source/BuildingEscape/PositionReport.h"; sourceTree = SOURCE_ROOT; };
+		9AF85B184E29D62E931D0422 /* BuildingEscape */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BuildingEscape; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FB8D470D22944A074DA62254 = {
+		4E88A4237C70FCEFE66B1717 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				700DDCF5F113F85BEF45495E /* BuildingEscape.cpp in Sources */,
 				1F5A10079392674F82AAB3F3 /* BuildingEscapeGameModeBase.cpp in Sources */,
+				5061BD82CEA077DAC22AD939 /* PositionReport.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXContainerItemProxy section */
-		F05891698B75FC570C38E0AD /* PBXContainerItemProxy */ = {
+		1AB576008A8E54C3EDE71DA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8068ED4934FD6A6B9C14E947 /* Project object */;
+			containerPortal = FB8D470D22944A074DA62254 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4BE9DB03FCF3E9B7D73B49E7;
+			remoteGlobalIDString = 8068ED4934FD6A6B9C14E947;
 			remoteInfo = "BuildingEscape_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		A6208DB7A31F108E9DA7BC20 /* PBXTargetDependency */ = {
+		56F51BB53F82F86E3FDF4DC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4BE9DB03FCF3E9B7D73B49E7 /* BuildingEscape_Build */;
-			targetProxy = F05891698B75FC570C38E0AD /* PBXContainerItemProxy */;
+			target = 8068ED4934FD6A6B9C14E947 /* BuildingEscape_Build */;
+			targetProxy = 1AB576008A8E54C3EDE71DA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		27DF2016081E33FDB0538021 = {
+		F60BF2267395371344BA1B7A = {
 			isa = PBXGroup;
 			children = (
-				32F0D68D67AC340BE580F3A1 /* Source */,
-				076FBCF15E3E3C690B5A417D /* Config */,
+				05073DFB1B39A6D7AF58D5D3 /* Source */,
+				E9E6EDC5CD11139B6B412042 /* Config */,
 				10E4841AB4578BB4EF66F8B7 /* BuildingEscape.uproject */,
-				A00A8FEF7CB106850F139A65 /* Products */,
+				D625DB1B0878D4FAE83A1228 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		32F0D68D67AC340BE580F3A1 = {
+		05073DFB1B39A6D7AF58D5D3 = {
 			isa = PBXGroup;
 			children = (
-				B894C34D1D20B2E18E6B047A /* BuildingEscape */,
+				63E615FF4DBCEC537B444816 /* BuildingEscape */,
 				940AC694D607EE88F16DFF10 /* BuildingEscape.Target.cs */,
 				6EF1EB4E659A8BF798C986A9 /* BuildingEscapeEditor.Target.cs */,
 			);
@@ -87,7 +92,7 @@
 			path = "Source";
 			sourceTree = "<group>";
 		};
-		B894C34D1D20B2E18E6B047A = {
+		63E615FF4DBCEC537B444816 = {
 			isa = PBXGroup;
 			children = (
 				CA77AECB457E004B66C66096 /* BuildingEscape.Build.cs */,
@@ -95,12 +100,14 @@
 				0E5631D94E6BF0852D4F2684 /* BuildingEscape.h */,
 				DF371B8EC7AA80860C4497E5 /* BuildingEscapeGameModeBase.cpp */,
 				51760B4CB6649764A23DF917 /* BuildingEscapeGameModeBase.h */,
+				12A41F7DA6C01C2F95353D50 /* PositionReport.cpp */,
+				4880233638C722279DD13911 /* PositionReport.h */,
 			);
 			name = "BuildingEscape";
 			path = "Source/BuildingEscape";
 			sourceTree = "<group>";
 		};
-		076FBCF15E3E3C690B5A417D = {
+		E9E6EDC5CD11139B6B412042 = {
 			isa = PBXGroup;
 			children = (
 				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */,
@@ -111,10 +118,10 @@
 			path = "Config";
 			sourceTree = "<group>";
 		};
-		A00A8FEF7CB106850F139A65 /* Products */ = {
+		D625DB1B0878D4FAE83A1228 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69DC045A189C1D2DCC2C6BAA /* BuildingEscape */,
+				9AF85B184E29D62E931D0422 /* BuildingEscape */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,10 +129,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		4BE9DB03FCF3E9B7D73B49E7 /* BuildingEscape_Build */ = {
+		8068ED4934FD6A6B9C14E947 /* BuildingEscape_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/andrew/Dropbox/Unreal/BuildingEscape/BuildingEscape/BuildingEscape.uproject\"";
-			buildConfigurationList = 56F51BB53F82F86E3FDF4DC6 /* Build configuration list for PBXLegacyTarget "BuildingEscape_Build" */;
+			buildConfigurationList = 7DE82D48E685FA6FD7791A47 /* Build configuration list for PBXLegacyTarget "BuildingEscape_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Users/andrew/Epic Games/UE_4.17/Engine/Build/BatchFiles/Mac/Build.sh";
@@ -139,28 +146,28 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		69A63212CAD8A07F230C8287 /* BuildingEscape */ = {
+		69DC045A189C1D2DCC2C6BAA /* BuildingEscape */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F935B3A40E75EA72B3BDA05 /* Build configuration list for PBXNativeTarget "BuildingEscape" */;
+			buildConfigurationList = 4BE9DB03FCF3E9B7D73B49E7 /* Build configuration list for PBXNativeTarget "BuildingEscape" */;
 			buildPhases = (
 			);
 			dependencies = (
-				A6208DB7A31F108E9DA7BC20 /* PBXTargetDependency */,
+				56F51BB53F82F86E3FDF4DC6 /* PBXTargetDependency */,
 			);
 			name = "BuildingEscape";
 			passBuildSettingsInEnvironment = 1;
 			productName = "BuildingEscape";
-			productReference = "69DC045A189C1D2DCC2C6BAA";
+			productReference = "9AF85B184E29D62E931D0422";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		1AB576008A8E54C3EDE71DA2 /* BuildingEscape_Index */ = {
+		27DF2016081E33FDB0538021 /* BuildingEscape_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AF85B184E29D62E931D0422 /* Build configuration list for PBXNativeTarget "BuildingEscape_Index" */;
+			buildConfigurationList = A00A8FEF7CB106850F139A65 /* Build configuration list for PBXNativeTarget "BuildingEscape_Index" */;
 			buildPhases = (
-				FB8D470D22944A074DA62254 /* Sources */,
+				4E88A4237C70FCEFE66B1717 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -172,38 +179,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8068ED4934FD6A6B9C14E947 /* Project object */ = {
+		FB8D470D22944A074DA62254 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					69A63212CAD8A07F230C8287 = {
+					69DC045A189C1D2DCC2C6BAA = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 7DE82D48E685FA6FD7791A47 /* Build configuration list for PBXProject "BuildingEscape" */;
+			buildConfigurationList = DD53627DE1EB962A680CA7DC /* Build configuration list for PBXProject "BuildingEscape" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 27DF2016081E33FDB0538021;
-			productRefGroup = A00A8FEF7CB106850F139A65;
+			mainGroup = F60BF2267395371344BA1B7A;
+			productRefGroup = D625DB1B0878D4FAE83A1228;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			69A63212CAD8A07F230C8287 /* BuildingEscape */,
-			4BE9DB03FCF3E9B7D73B49E7 /* BuildingEscape_Build */,
-			1AB576008A8E54C3EDE71DA2 /* BuildingEscape_Index */,
+			69DC045A189C1D2DCC2C6BAA /* BuildingEscape */,
+			8068ED4934FD6A6B9C14E947 /* BuildingEscape_Build */,
+			27DF2016081E33FDB0538021 /* BuildingEscape_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		DD53627DE1EB962A680CA7DC /* "DebugGame" */ = {
+		A22494B86F0E0F2238E7A6BB /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -716,7 +723,7 @@
 			};
 			name = "DebugGame";
 		};
-		A22494B86F0E0F2238E7A6BB /* "DebugGame Editor" */ = {
+		4F0CB739775B1ED74DAAC75B /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1229,7 +1236,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		4F0CB739775B1ED74DAAC75B /* "Development" */ = {
+		8AE313A63CC70012FF9B165D /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1742,7 +1749,7 @@
 			};
 			name = "Development";
 		};
-		8AE313A63CC70012FF9B165D /* "Development Editor" */ = {
+		A3B99895D48036D74C1B5E43 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2255,7 +2262,7 @@
 			};
 			name = "Development Editor";
 		};
-		A3B99895D48036D74C1B5E43 /* "Shipping" */ = {
+		0584061FEEC1F89B3958A3B2 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2768,7 +2775,7 @@
 			};
 			name = "Shipping";
 		};
-		F60BF2267395371344BA1B7A /* "DebugGame" */ = {
+		107B21F037ADF3BBF8CAD7EA /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2794,7 +2801,7 @@
 			};
 			name = "DebugGame";
 		};
-		107B21F037ADF3BBF8CAD7EA /* "DebugGame Editor" */ = {
+		773C640C533BAC4B013D0C1C /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2809,7 +2816,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		773C640C533BAC4B013D0C1C /* "Development" */ = {
+		CA15FEDDA1BE5BE2B7B397F8 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2835,7 +2842,7 @@
 			};
 			name = "Development";
 		};
-		CA15FEDDA1BE5BE2B7B397F8 /* "Development Editor" */ = {
+		21A16C2DD324A62797087F3F /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2850,7 +2857,7 @@
 			};
 			name = "Development Editor";
 		};
-		21A16C2DD324A62797087F3F /* "Shipping" */ = {
+		32F0D68D67AC340BE580F3A1 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2876,7 +2883,7 @@
 			};
 			name = "Shipping";
 		};
-		D625DB1B0878D4FAE83A1228 /* "DebugGame" */ = {
+		F11396D3BD2B946B0EC479E4 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2886,7 +2893,7 @@
 			};
 			name = "DebugGame";
 		};
-		F11396D3BD2B946B0EC479E4 /* "DebugGame Editor" */ = {
+		22199108D9700808009584B1 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2896,7 +2903,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		22199108D9700808009584B1 /* "Development" */ = {
+		47F8A65FA6D2C7F2B7A27EF5 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2906,7 +2913,7 @@
 			};
 			name = "Development";
 		};
-		47F8A65FA6D2C7F2B7A27EF5 /* "Development Editor" */ = {
+		F2224D4601BEB3B20F16BBEC /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2916,7 +2923,7 @@
 			};
 			name = "Development Editor";
 		};
-		F2224D4601BEB3B20F16BBEC /* "Shipping" */ = {
+		076FBCF15E3E3C690B5A417D /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2926,7 +2933,7 @@
 			};
 			name = "Shipping";
 		};
-		4E88A4237C70FCEFE66B1717 /* "DebugGame" */ = {
+		E41B8BDA2AEFF066E2E81301 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2952,7 +2959,7 @@
 			};
 			name = "DebugGame";
 		};
-		E41B8BDA2AEFF066E2E81301 /* "DebugGame Editor" */ = {
+		745BF3B3A5A19639542F62EE /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2967,7 +2974,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		745BF3B3A5A19639542F62EE /* "Development" */ = {
+		5D61CC389471B1D94495E990 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2993,7 +3000,7 @@
 			};
 			name = "Development";
 		};
-		5D61CC389471B1D94495E990 /* "Development Editor" */ = {
+		3A311D366BA6A941038816F3 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3008,7 +3015,7 @@
 			};
 			name = "Development Editor";
 		};
-		3A311D366BA6A941038816F3 /* "Shipping" */ = {
+		B894C34D1D20B2E18E6B047A /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3037,55 +3044,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7DE82D48E685FA6FD7791A47 /* Build configuration list for PBXProject "BuildingEscape" */ = {
+		DD53627DE1EB962A680CA7DC /* Build configuration list for PBXProject "BuildingEscape" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD53627DE1EB962A680CA7DC /* "DebugGame" */,
-				A22494B86F0E0F2238E7A6BB /* "DebugGame Editor" */,
-				4F0CB739775B1ED74DAAC75B /* "Development" */,
-				8AE313A63CC70012FF9B165D /* "Development Editor" */,
-				A3B99895D48036D74C1B5E43 /* "Shipping" */,
+				A22494B86F0E0F2238E7A6BB /* "DebugGame" */,
+				4F0CB739775B1ED74DAAC75B /* "DebugGame Editor" */,
+				8AE313A63CC70012FF9B165D /* "Development" */,
+				A3B99895D48036D74C1B5E43 /* "Development Editor" */,
+				0584061FEEC1F89B3958A3B2 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		56F51BB53F82F86E3FDF4DC6 /* Build configuration list for PBXLegacyTarget "BuildingEscape_Build" */ = {
+		7DE82D48E685FA6FD7791A47 /* Build configuration list for PBXLegacyTarget "BuildingEscape_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D625DB1B0878D4FAE83A1228 /* "DebugGame" */,
-				F11396D3BD2B946B0EC479E4 /* "DebugGame Editor" */,
-				22199108D9700808009584B1 /* "Development" */,
-				47F8A65FA6D2C7F2B7A27EF5 /* "Development Editor" */,
-				F2224D4601BEB3B20F16BBEC /* "Shipping" */,
+				F11396D3BD2B946B0EC479E4 /* "DebugGame" */,
+				22199108D9700808009584B1 /* "DebugGame Editor" */,
+				47F8A65FA6D2C7F2B7A27EF5 /* "Development" */,
+				F2224D4601BEB3B20F16BBEC /* "Development Editor" */,
+				076FBCF15E3E3C690B5A417D /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		5F935B3A40E75EA72B3BDA05 /* Build configuration list for PBXNativeTarget "BuildingEscape" */ = {
+		4BE9DB03FCF3E9B7D73B49E7 /* Build configuration list for PBXNativeTarget "BuildingEscape" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F60BF2267395371344BA1B7A /* "DebugGame" */,
-				107B21F037ADF3BBF8CAD7EA /* "DebugGame Editor" */,
-				773C640C533BAC4B013D0C1C /* "Development" */,
-				CA15FEDDA1BE5BE2B7B397F8 /* "Development Editor" */,
-				21A16C2DD324A62797087F3F /* "Shipping" */,
+				107B21F037ADF3BBF8CAD7EA /* "DebugGame" */,
+				773C640C533BAC4B013D0C1C /* "DebugGame Editor" */,
+				CA15FEDDA1BE5BE2B7B397F8 /* "Development" */,
+				21A16C2DD324A62797087F3F /* "Development Editor" */,
+				32F0D68D67AC340BE580F3A1 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		9AF85B184E29D62E931D0422 /* Build configuration list for PBXNativeTarget "BuildingEscape_Index" */ = {
+		A00A8FEF7CB106850F139A65 /* Build configuration list for PBXNativeTarget "BuildingEscape_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E88A4237C70FCEFE66B1717 /* "DebugGame" */,
-				E41B8BDA2AEFF066E2E81301 /* "DebugGame Editor" */,
-				745BF3B3A5A19639542F62EE /* "Development" */,
-				5D61CC389471B1D94495E990 /* "Development Editor" */,
-				3A311D366BA6A941038816F3 /* "Shipping" */,
+				E41B8BDA2AEFF066E2E81301 /* "DebugGame" */,
+				745BF3B3A5A19639542F62EE /* "DebugGame Editor" */,
+				5D61CC389471B1D94495E990 /* "Development" */,
+				3A311D366BA6A941038816F3 /* "Development Editor" */,
+				B894C34D1D20B2E18E6B047A /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8068ED4934FD6A6B9C14E947 /* Project object */;
+	rootObject = FB8D470D22944A074DA62254 /* Project object */;
 }
